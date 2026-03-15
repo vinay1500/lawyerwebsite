@@ -1,0 +1,136 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Join Us - Saurabh Patria and Associates
+{% endblock title %}
+
+{% block join_active %}
+    class="active"
+{% endblock join_active %}
+{% block content %}
+<div class="join-us-section">
+    <div class="join-us-info">
+        <h2>Join Us Today</h2>
+        <h3>The Right Place For You</h3>
+        <p>At Saurabh Patria and Associates we look to take on individuals who have the ability to combine an impressive academic track record with excellent technical skills with an interest in building a career in any one of the many practice areas of the firm. People who will bring energy, enthusiasm and creativity, which can build strong relationships, with colleagues and with clients, and who can bring clarity to complex situations, are committed to excellence, and are good problem solvers.</p>
+        <p>We offer an environment in which analytical thinking and result oriented research is encouraged and rewarded. We also provide transparent and consistent opportunities for growth in a culture of mutual respect. Our philosophy in crafting future excellence hinges on exposure to a variety of practice areas, enabling lawyer to understand the big picture of the business risks and exposure that our client’s face. We look for exceptional professionals, graduates and associates who can demonstrate exceptional analytical and problem-solving potential, with a high standard of professional ethics commensurate with our values and culture.</p>
+    </div>
+
+    <div class="job-opportunities">
+        <h2>Job Opportunities</h2>
+        <h3>Internships</h3>
+        <p>A good beginning is half the battle won. We, at Saurabh Patria and Associates understand the challenges that an attorney-in-making would face when they are exposed to life at a law firm. While students learn their legal principles in college, it is only when they work in a professional environment that they learn the code of conduct and sharpens their legal career. Our internship programme aims at helping such young attorneys get their first move right by giving them an opportunity to get involved in the daily routine of a law firm and help actualize their potential. The interns would get a taste of applying legal knowledge in a practical situation. What we expect out of an intern is good communication and interpersonal skills, willingness to work hard and ability to work in a team. If you think you would fit into these requirements, we would love to hear from you. To apply, mail us your CVs along with a covering letter briefly talking about your academic credentials and work experience, if any at&nbsp;<a href="mailto:hr@legitab.in">hr@vinay.in</a></p>
+        
+        <div class="job-opportunities">
+            <h3>Internship Application Form</h3>
+            <div class="col-lg-8">
+                <form class="form-contact contact_form" action="{{ url_for('submit_internship') }}" method="post" id="internshipForm" novalidate="novalidate" enctype="multipart/form-data">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your full name'" placeholder="Enter your full name" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your email address'" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input class="form-control valid" name="phone" id="phone" type="tel" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your phone number'" placeholder="Phone Number" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input class="form-control valid" name="university" id="university" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your university name'" placeholder="University Name" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input class="form-control valid" name="degree" id="degree" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your degree (e.g., LLB, BA LLB)'" placeholder="Degree (e.g., LLB, BA LLB)" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input class="form-control valid" name="year" id="year" type="number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your current year of study'" placeholder="Current Year of Study" required>
+                            </div>
+                        </div>
+    
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="resume">Upload Resume (PDF only):</label>
+                                <input class="form-control" type="file" name="resume" id="resume" accept=".pdf" required>
+                            </div>
+                        </div>
+    
+                        <div class="col-12">
+                            <div class="form-group">
+                                <textarea class="form-control w-100" name="cover_letter" id="cover_letter" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Write your cover letter'" placeholder="Write your cover letter" required></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group mt-3">
+                        <button type="submit" class="button button-contactForm boxed-btn">Submit Application</button>
+                    </div>
+                </form>
+            </div>
+        <h3>Discover your Potential</h3>
+        <h3>Careers at Legitab</h3>
+
+        <div class="job-listings">
+            <div class="job-listing">
+                <h4>Law Office Assistant</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+            <div class="job-listing">
+                <h4>Office Supervisor</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+            <div class="job-listing">
+                <h4>Legal Support Analyst</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.join-us-section {
+    padding: 20px;
+}
+
+.join-us-info {
+    margin-bottom: 30px;
+}
+
+.join-us-info h2, .job-opportunities h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.join-us-info h3, .job-opportunities h3 {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.join-us-info p, .job-opportunities p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.job-listings {
+    margin-top: 20px;
+}
+
+.job-listing {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.job-listing h4 {
+    margin-bottom: 5px;
+}
+</style>
+{% endblock content %}

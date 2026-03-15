@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ area_name|capitalize }} - Practice Details
+{% endblock title %}
+
+{% block content %}
+    <div class="bradcam_area">
+        <div class="bradcam_inner bradcam_bg d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="bradcam_text text-center">
+                            <h3>{{ area_name|capitalize }}</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="practice-details-content">
+        <div class="container">
+            {% if area_name == 'constitutional' %}
+                <h2>Constitutional and Administrative Law</h2>
+                <p>
+                    Expertise in constitutional matters and administrative law.
+                    [Add more details here for Constitutional Law]
+                </p>
+            {% elif area_name == 'criminal' %}
+                <h2>Criminal Law</h2>
+                <p>
+                    Strong representation in criminal cases.
+                    [Add more details here for Criminal Law]
+                </p>
+            {% elif area_name == 'family' %}
+                <h2>Family Law</h2>
+                <p>
+                    Strong representation in Family cases.
+                    [Add more details here for Family Law]
+                </p>
+            {% elif area_name == 'property' %}
+                <h2>Property Law</h2>
+                <p>
+                    Strong representation in Property cases.
+                    [Add more details here for Property Law]
+                </p>
+            {% elif area_name == 'company' %}
+                <h2>Company Matters</h2>
+                <p>
+                    Legal services for all company-related issues.
+                    [Add more details here for Company Matters]
+                </p>
+            {% elif area_name == 'service' %}
+                <h2>Service & Labour Law</h2>
+                <p>
+                    Expertise in employment and labor law matters.
+                    [Add more details here for Service & Labour Law]
+                </p>
+            {% elif area_name == 'insolvency' %}
+                <h2>Insolvency and Bankruptcy Matters</h2>
+                <p>
+                    Legal services for insolvency and bankruptcy proceedings.
+                    [Add more details here for Insolvency and Bankruptcy Matters]
+                </p>
+            {% elif area_name == 'civil' %}
+                <h2>Civil and Contractual Matters</h2>
+                <p>
+                    Representation in civil disputes and contract law.
+                    [Add more details here for Civil and Contractual Matters]
+                </p>
+            {% elif area_name == 'taxation' %}
+                <h2>Taxation</h2>
+                <p>
+                    Expertise in tax law and related matters.
+                    [Add more details here for Taxation]
+                </p>
+            {% elif area_name == 'matrimonial' %}
+                <h2>Matrimonial Matters</h2>
+                <p>
+                    Legal support in matrimonial and family law cases.
+                    [Add more details here for Matrimonial Matters]
+                </p>
+            {% elif area_name == 'banking' %}
+                <h2>Banking & Finance Law</h2>
+                <p>
+                    Expertise in banking and financial legal matters.
+                    [Add more details here for Banking & Finance Law]
+                </p>
+            {% endif %}
+        </div>
+    </div>
+{% endblock content %}

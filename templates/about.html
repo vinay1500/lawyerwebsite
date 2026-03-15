@@ -1,0 +1,128 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    About Us - Saurabh Patria and Associates
+{% endblock title %}
+
+{% block description %}
+    Learn more about Saurabh Patria and Associates, leading lawyers in Jaipur, Rajasthan High Court. Our expertise and commitment to justice make us your trusted legal partners.
+{% endblock description %}
+
+{% block about_active %}
+    class="active"
+{% endblock about_active %}
+
+{% block content %}
+<div class="slider_area ">
+    <div class="slider_area_inner slider_area_inner2 slider_bg_2 d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7">
+                    <div class="single_slider">
+                        <div class="slider_text">
+                            <h3>About Saurabh Patria <br>
+                                and Associates</h3>
+                            <p class="name" >- Your Trusted Legal Partners in Jaipur</p>
+                            <a href="{{ url_for('contact') }}" class="boxed-btn4 ">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="about_area">
+    <div class="opacity_icon d-none d-lg-block">
+        <i class="flaticon-balance"></i>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-md-6">
+                <div class="single_about_info text-center">
+                    <div class="about_thumb">
+                        <img src="{{ url_for('static', filename='assets/img/about/1.png') }}" alt="Saurabh Patria Image">
+                    </div>
+                    <h3>Our Mission</h3>
+                    <p>At Saurabh Patria and Associates, our mission is to provide exceptional legal services with integrity and dedication. We strive to achieve the best possible outcomes for our clients through personalized attention and expert representation in the Rajasthan High Court.</p>
+                    <div class="signature">
+                        <img src="{{ url_for('static', filename='assets/img/about/signature.png') }}" alt="Saurabh Patria Signature">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-md-6">
+                <div class="single_about_info text-center">
+                    <div class="about_thumb">
+                        <div class="image_hover">
+                            <div class="hover_inner">
+                                <h2>Our Values</h2>
+                                <span>Integrity, Excellence, Dedication</span>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Who We Are</h3>
+                    <p>Saurabh Patria and Associates is a leading law firm based in Jaipur, specializing in various areas of law. Our team of experienced lawyers is committed to providing comprehensive legal solutions to individuals and businesses. We are dedicated to upholding justice and serving the community with professionalism and expertise.</p>
+                    <div class="total_cases">
+                        <div class="single_cases">
+                            <h4>Experienced</h4>
+                            <p>Legal Team</p>
+                        </div>
+                        <div class="single_cases">
+                            <h4>Client-Focused</h4>
+                            <p>Approach</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% include "meetourpeople.html" %}
+{% include "managing_partner.html" %}
+<!--{% include "core_team.html" %}-->
+{% include "lawyers_description.html" %}
+
+{% include "photo_gallery.html" %}
+
+<div class="testmonial_area testmonial_bg_1 overlay2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="testmonial_active owl-carousel">
+                    <div class="single_testmonial text-center">
+                        <i class="flaticon-straight-quotes"></i>
+                        <p>"Saurabh Patria and Associates provided exceptional legal support. Their expertise and dedication were crucial in resolving my case successfully."</p>
+                        <div class="author_info d-flex justify-content-center align-items-center">
+                            <div class="thumb">
+                                <img src="{{ url_for('static', filename='assets/img/testmonial/smaill_thumb.png') }}" alt="Client 1">
+                            </div>
+                            <span>- Client 1 Name</span>
+                        </div>
+                    </div>
+                    <div class="single_testmonial text-center">
+                        <i class="flaticon-straight-quotes"></i>
+                        <p>"I highly recommend Saurabh Patria and Associates. They handled my case with professionalism and achieved a favorable outcome."</p>
+                        <div class="author_info d-flex justify-content-center align-items-center">
+                            <div class="thumb">
+                                <img src="{{ url_for('static', filename='assets/img/testmonial/smaill_thumb.png') }}" alt="Client 2">
+                            </div>
+                            <span>- Client 2 Name</span>
+                        </div>
+                    </div>
+                    <div class="single_testmonial text-center">
+                        <i class="flaticon-straight-quotes"></i>
+                        <p>"Their team is knowledgeable and responsive. They kept me informed throughout the process and provided excellent legal advice."</p>
+                        <div class="author_info d-flex justify-content-center align-items-center">
+                            <div class="thumb">
+                                <img src="{{ url_for('static', filename='assets/img/testmonial/smaill_thumb.png') }}" alt="Client 3">
+                            </div>
+                            <span>- Client 3 Name</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--{% include 'appointment_area.html' %} -->
+{% endblock content %}

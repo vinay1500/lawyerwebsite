@@ -1,0 +1,64 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{% block title %}{% endblock title %}</title>
+    <meta name="description" content="{% block description %}{% endblock description %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/themify-icons.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/nice-select.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/flaticon.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/gijgo.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/slicknav.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}">
+</head>
+
+<body>
+{% include "header.html" %}
+
+    {% block content %}{% endblock content %}
+
+    {% include 'footer.html' %}
+
+    <script src="{{ url_for('static', filename='assets/js/vendor/modernizr-3.5.0.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/vendor/jquery-1.12.4.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/popper.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/ajax-form.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/waypoints.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/scrollIt.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/jquery.scrollUp.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/wow.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/nice-select.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/jquery.slicknav.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/plugins.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/contact.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/jquery.ajaxchimp.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/jquery.form.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/jquery.validate.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/mail-script.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+    <script>
+        $('#datepicker').datepicker({
+            iconsLibrary: 'fontawesome',
+        });
+    </script>
+    <div class="whatsapp-button">
+        <a href="https://wa.me/919876543210?text=Hello%20from%20your%20website!" target="_blank" rel="noopener noreferrer">
+            <i class="fa fa-whatsapp"></i>
+        </a>
+    </div>
+</body>
+
+</html>

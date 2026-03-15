@@ -1,0 +1,93 @@
+{% block footer %}
+<footer class="footer">
+    <div class="footer_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-md-6 col-lg-3">
+                    <div class="footer_widget">
+                        <div class="footer_logo">
+                            <a href="{{ url_for('index') }}">
+                                <img src="{{ url_for('static', filename='assets/img/logo.png') }}" alt="Saurabh Patria and Associates Logo"
+                                    style="max-height: 90px;">
+                            </a>
+                        </div>
+                        <p class="footer_text">Address: [Your Firm Address, Jaipur] <br>
+                            Phone: [Your Phone Number] <br>
+                            Email: <a class="domain" href="mailto:info@yourfirm.com">info@yourfirm.com</a></p>
+                        <div class="socail_links">
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/yourfirmspage" target="_blank">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/yourfirmsaccount" target="_blank">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/yourfirmsinsta" target="_blank">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-6 col-lg-2">
+                    <div class="footer_widget">
+                        <h3 class="footer_title">
+                            Practice Areas
+                        </h3>
+                        <ul>
+                            <li><a href="{{ url_for('practice_details', area_name='matrimonial') }}" class="lern_more">Matrimonial Law</a></li>
+                            <li><a href="{{ url_for('practice_details', area_name='criminal') }}" class="lern_more">Criminal Law</a></li>
+                            <li><a href="{{ url_for('practice_details', area_name='family') }}" class="lern_more">Family Law</a></li>
+                            <li><a href="{{ url_for('practice_details', area_name='property') }}" class="lern_more">Property Law</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-6 col-lg-2">
+                    <div class="footer_widget">
+                        <h3 class="footer_title">
+                            Useful Links
+                        </h3>
+                        <ul>
+                            <li><a href="{{ url_for('about') }}">About Us</a></li>
+                            <li><a href="{{ url_for('blog') }}">Blog</a></li>
+                            <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="footer_widget">
+                        <h3 class="footer_title">
+                            Subscribe to Our Newsletter
+                        </h3>
+                        <form action="#" class="newsletter_form">
+                            <input type="email" placeholder="Enter your email">
+                            <button type="submit">Sign Up</button>
+                        </form>
+                        <p class="newsletter_text">Stay updated with our latest legal insights and news.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right_text">
+        <div class="container">
+            <div class="footer_border"></div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <p class="copy_right text-center">
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved | Saurabh
+                        Patria and Associates, Jaipur
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+{% endblock footer %}

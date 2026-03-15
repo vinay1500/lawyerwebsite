@@ -1,0 +1,47 @@
+<!--
+<section class="photo-gallery">
+    <div class="container">
+        <h2>Photo Gallery</h2>
+        <div class="row">
+            {% for image in images %}
+            <div class="col-md-6 gallery-item">
+                <img src="{{ url_for('static', filename=image) }}" alt="Gallery Image" class="img-fluid">
+            </div>
+            {% endfor %}
+        </div>
+        <div class="pagination">
+        </div>
+    </div>
+</section>
+-->
+
+<section class="photo-gallery">
+    <div class="container">
+        <h2>Photo Gallery</h2>
+        <div class="row">
+            {% for image in images %}
+            <div class="col-md-6 gallery-item">
+                <img src="{{ url_for('static', filename=image) }}" alt="Gallery Image" class="img-fluid">
+            </div>
+            {% endfor %}
+        </div>
+
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                {% if current_page > 1 %}
+                <li class="page-item"><a class="page-link" href="{{ url_for('about', page=current_page - 1) }}">Previous</a></li>
+                {% endif %}
+
+                {% for p in range(1, total_pages + 1) %}
+                    <li class="page-item {% if p == current_page %}active{% endif %}">
+                        <a class="page-link" href="{{ url_for('about', page=p) }}">{{ p }}</a>
+                    </li>
+                {% endfor %}
+
+                {% if current_page < total_pages %}
+                <li class="page-item"><a class="page-link" href="{{ url_for('about', page=current_page + 1) }}">Next</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+    </div>
+</section>

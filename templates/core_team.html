@@ -1,0 +1,22 @@
+<section class="core-team">
+    <div class="container">
+        <h2>Law as a Way of Life</h2>
+        <h1>Our Core Team</h1>
+        <hr style="border-top: 1px solid gray;">
+
+        <div class="row">
+            {% for lawyer in lawyers %}
+            <div class="col-md-4">
+                <img src="{{ url_for('static', filename=lawyer.image) }}" alt="{{ lawyer.name }}" class="img-fluid">
+                <div class="lawyer-details">
+                    <h3>{{ lawyer.name }}</h3>
+                    <p>{{ lawyer.title }}</p>
+                    <p><strong>Experience:</strong> {{ lawyer.experience }}</p>
+                    <p><strong>Expertise:</strong> {{ lawyer.expertise }}</p>
+                    <p>{{ lawyer.description }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

@@ -1,0 +1,302 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Saurabh Patria and Associates Jaipur High Court Lawyers
+{% endblock title %}
+
+{% block description %}
+    Saurabh Patria and Associates, leading lawyers in Jaipur, Rajasthan High Court. Expert legal advice and representation. Contact us for consultations.
+{% endblock description %}
+
+{% block home_active %}
+    class="active"
+{% endblock home_active %}
+
+{% block content %}
+<div class="slider_area ">
+    <div class="slider_area_inner slider_bg_1 d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7">
+                    <div class="single_slider">
+                        <div class="slider_text">
+                            <h3>Expert Legal Solutions <br>
+                                in Rajasthan High Court</h3>
+                            <p>Saurabh Patria and Associates - Your Trusted Legal Partners in Jaipur.</p>
+                            <a href="contact.html" class="boxed-btn4 ">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="about_area">
+    <div class="opacity_icon d-none d-lg-block">
+        <i class="flaticon-balance"></i>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-md-6">
+                <div class="single_about_info text-center">
+                    <div class="about_thumb">
+                        <img src="img/about/1.png" alt="Saurabh Patria Image">
+                    </div>
+                    <h3>Committed to Justice <br>
+                        and Client Success</h3>
+                    <p>Saurabh Patria and Associates is dedicated to providing high-quality legal services in Jaipur. We understand the complexities of the legal system and strive to deliver effective solutions for our clients.</p>
+                    <div class="signature">
+                        <img src="img/about/signature.png" alt="Saurabh Patria Signature">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-md-6">
+                <div class="single_about_info text-center">
+                    <div class="about_thumb">
+                        <div class="image_hover">
+                            <div class="hover_inner">
+                                <h2>90%+</h2>
+                                <span>Case Success Rate</span>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>About Saurabh Patria and Associates</h3>
+                    <p>We are a team of experienced lawyers specializing in various areas of law. Our focus is on providing personalized legal representation and achieving the best possible outcomes for our clients in the Rajasthan High Court.</p>
+                    <div class="total_cases">
+                        <div class="single_cases">
+                            <h4>500+</h4>
+                            <p>Cases Handled</p>
+                        </div>
+                        <div class="single_cases">
+                            <h4>450+</h4>
+                            <p>Cases Won</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="practice_area">
+    <div class="container-fluid p-0">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="section_title text-center mb-60">
+                    <h3>Our Practice Areas</h3>
+                    <p>We offer comprehensive legal services in various areas of law, ensuring our clients receive the best representation.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice">
+                    <div class="practice_image">
+                        <img src="img/practice/1.png" alt="Business Law">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-case"></i>
+                            <h3>Business Law</h3>
+                            <p>Expert legal guidance for businesses of all sizes, including contracts, compliance, and litigation.</p>
+                            <a href="practice.html#business" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice">
+                    <div class="practice_image">
+                        <img src="img/practice/2.png" alt="Criminal Law">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-courthouse"></i>
+                            <h3>Criminal Law</h3>
+                            <p>Strong defense and representation in criminal cases, ensuring your rights are protected.</p>
+                            <a href="practice.html#criminal" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice">
+                    <div class="practice_image">
+                        <img src="img/practice/3.png" alt="Family Law">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-judge"></i>
+                            <h3>Family Law</h3>
+                            <p>Compassionate legal assistance for family-related matters, including divorce, custody, and adoption.</p>
+                            <a href="practice.html#family" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice">
+                    <div class="practice_image">
+                        <img src="img/practice/4.png" alt="Property Law">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-jury"></i>
+                            <h3>Property Law</h3>
+                            <p>Comprehensive legal services for property-related matters, including disputes and transactions.</p>
+                            <a href="practice.html#property" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="our_loyers">
+    <div class="container">
+            <div class="row">
+                    <div class="col-xl-12">
+                        <div class="section_title text-center mb-60">
+                            <h3>Our Legal Team</h3>
+                            <p>Meet our experienced team of lawyers dedicated to serving your legal needs.</p>
+                        </div>
+                    </div>
+                </div>
+        <div class="row">
+            <div class="col-xl-4 col-md-6 col-lg-4">
+                <div class="single_loyers text-center">
+                    <div class="thumb">
+                        <img src="img/lawyers/1.png" alt="Saurabh Patria">
+                    </div>
+                    <h3>Saurabh Patria</h3>
+                    <span>Managing Partner</span>
+                    <div class="social_links">
+                        <ul>
+                            <li><a href="https://www.facebook.com/yourfirmspage" target="_blank"> <i class="fa fa-facebook"></i> </a></li>
+                            <li><a href="https://twitter.com/yourfirmsaccount" target="_blank"> <i class="fa fa-twitter"></i> </a></li>
+                            <li><a href="https://www.instagram.com/yourfirmsinsta" target="_blank"> <i class="fa fa-instagram"></i> </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-lg-4">
+                <div class="single_loyers text-center">
+                    <div class="thumb">
+                        <img src="img/lawyers/2.png" alt="Lawyer 2">
+                    </div>
+                    <h3>Lawyer 2 Name</h3>
+                    <span>Associate Lawyer</span>
+                    <div class="social_links">
+                        <ul>
+                            <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
+                            <li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
+                            <li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-lg-4">
+                <div class="single_loyers text-center">
+                    <div class="thumb">
+                        <img src="img/lawyers/3.png" alt="Lawyer 3">
+                    </div>
+                    <h3>Lawyer 3 Name</h3>
+                    <span>Associate Lawyer</span>
+                    <div class="social_links">
+                        <ul>
+                            <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
+                            <li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
+                            <li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="testmonial_area testmonial_bg_1 overlay2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="testmonial_active owl-carousel">
+                    <div class="single_testmonial text-center">
+                        <i class="flaticon-straight-quotes"></i>
+                        <p>"Saurabh Patria and Associates provided exceptional legal support. Their expertise and dedication were crucial in resolving my case successfully."</p>
+                        <div class="author_info d-flex justify-content-center align-items-center">
+                            <div class="thumb">
+                                <img src="img/testmonial/smaill_thumb.png" alt="Client 1">
+                            </div>
+                            <span>- Client 1 Name</span>
+                        </div>
+                    </div>
+                    <div class="single_testmonial text-center">
+                        <i class="flaticon-straight-quotes"></i>
+                        <p>"I highly recommend Saurabh Patria and Associates. They handled my case with professionalism and achieved a favorable outcome."</p>
+                        <div class="author_info d-flex justify-content-center align-items-center">
+                            <div class="thumb">
+                                <img src="img/testmonial/smaill_thumb.png" alt="Client 2">
+                            </div>
+                            <span>- Client 2 Name</span>
+                        </div>
+                    </div>
+                    <div class="single_testmonial text-center">
+                        <i class="flaticon-straight-quotes"></i>
+                        <p>"Their team is knowledgeable and responsive. They kept me informed throughout the process and provided excellent legal advice."</p>
+                        <div class="author_info d-flex justify-content-center align-items-center">
+                            <div class="thumb">
+                                <img src="img/testmonial/smaill_thumb.png" alt="Client 3">
+                            </div>
+                            <span>- Client 3 Name</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="appointment_area">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-xl-5 col-md-6 col-lg-6">
+                <div class="appiontment_thumb d-none d-lg-block">
+                    <img src="img/appointment/1.png" alt="Appointment">
+                </div>
+            </div>
+            <div class="col-xl-6 offset-xl-1 col-md-6 col-md-12 col-lg-6">
+                <div class="appointment_info">
+                    <div class="opacity_icon d-none d-lg-block">
+                        <i class="flaticon-balance"></i>
+                    </div>
+                    <h3>Schedule a Consultation</h3>
+                    <p>Contact us to schedule a consultation and discuss your legal needs.</p>
+                    <form action="contact-form-handler.php" method="post">
+                            <div class="row">
+                                <div class="col-xl-6 col-md-6">
+                                        <input type="text" name="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-xl-6 col-md-6">
+                                        <input type="email" name="email" placeholder="Your Email" required>
+                                </div>
+                                <div class="col-xl-6 col-md-6">
+                                        <input type="text" name="phone" placeholder="Phone no." required>
+                                </div>
+                                <div class="col-xl-6 col-md-6">
+                                    <input id="datepicker" name="date" placeholder="Appointment date" required>
+                                </div>
+                                <div class="col-xl-12">
+                                    <textarea name="message" placeholder="Message" required></textarea>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="appoinment_button">
+                                        <button class="boxed-btn5 " type="submit" >Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

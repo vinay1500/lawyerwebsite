@@ -1,0 +1,536 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Practice Areas - Saurabh Patria and Associates
+{% endblock title %}
+
+{% block description %}
+    Explore our practice areas at Saurabh Patria and Associates, leading lawyers in Jaipur, Rajasthan High Court. We specialize in business law, criminal law, family law, and more.
+{% endblock description %}
+
+{% block practice_active %}
+    class="active"
+{% endblock practice_active %}
+
+{% block content %}
+
+<div class="bradcam_area">
+    <div class="bradcam_inner bradcam_bg d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="bradcam_text text-center">
+                        <h3>Our Practice Areas</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="practice_area practice_area2">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="constitutional">
+                    <div class="practice_image">
+                        <img src="img/practice/1.png" alt="Constitutional and Administrative Law">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-case"></i>
+                            <h3>Constitutional and Administrative Law</h3>
+                            <p>Expertise in constitutional matters and administrative law.</p>
+                            <a href="#constitutional" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="criminal">
+                    <div class="practice_image">
+                        <img src="img/practice/2.png" alt="Criminal Law">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-courthouse"></i>
+                            <h3>Criminal Law</h3>
+                            <p>Strong representation in criminal cases.</p>
+                            <a href="#criminal" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="company">
+                    <div class="practice_image">
+                        <img src="img/practice/3.png" alt="Company Matters">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-judge"></i>
+                            <h3>Company Matters</h3>
+                            <p>Legal services for all company-related issues.</p>
+                            <a href="#company" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="service">
+                    <div class="practice_image">
+                        <img src="img/practice/4.png" alt="Service & Labour Law">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-jury"></i>
+                            <h3>Service & Labour Law</h3>
+                            <p>Expertise in employment and labor law matters.</p>
+                            <a href="#service" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="insolvency">
+                    <div class="practice_image">
+                        <img src="img/practice/1.png" alt="Insolvency and Bankruptcy Matters">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-case"></i>
+                            <h3>Insolvency and Bankruptcy Matters</h3>
+                            <p>Legal services for insolvency and bankruptcy proceedings.</p>
+                            <a href="#insolvency" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="civil">
+                    <div class="practice_image">
+                        <img src="img/practice/2.png" alt="Civil and Contractual Matters">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-courthouse"></i>
+                            <h3>Civil and Contractual Matters</h3>
+                            <p>Representation in civil disputes and contract law.</p>
+                            <a href="#civil" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="taxation">
+                    <div class="practice_image">
+                        <img src="img/practice/3.png" alt="Taxation">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-judge"></i>
+                            <h3>Taxation</h3>
+                            <p>Expertise in tax law and related matters.</p>
+                            <a href="#taxation" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="matrimonial">
+                    <div class="practice_image">
+                        <img src="img/practice/4.png" alt="Matrimonial Matters">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-jury"></i>
+                            <h3>Matrimonial Matters</h3>
+                            <p>Legal support in matrimonial and family law cases.</p>
+                            <a href="#matrimonial" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="banking">
+                    <div class="practice_image">
+                        <img src="img/practice/1.png" alt="Banking & Finance Law">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-case"></i>
+                            <h3>Banking & Finance Law</h3>
+                            <p>Expertise in banking and financial legal matters.</p>
+                            <a href="#banking" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="electricity">
+                    <div class="practice_image">
+                        <img src="img/practice/2.png" alt="Electricity Matters">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-courthouse"></i>
+                            <h3>Electricity Matters</h3>
+                            <p>Legal services for electricity-related disputes and regulations.</p>
+                            <a href="#electricity" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="consumer">
+                    <div class="practice_image">
+                        <img src="img/practice/3.png" alt="Consumer Matters">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-judge"></i>
+                            <h3>Consumer Matters</h3>
+                            <p>Representation in consumer disputes and rights protection.</p>
+                            <a href="#consumer" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="humanrights">
+                    <div class="practice_image">
+                        <img src="img/practice/4.png" alt="Civil and Human Rights Law">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-jury"></i>
+                            <h3>Civil and Human Rights Law</h3>
+                            <p>Protection and enforcement of civil and human rights.</p>
+                            <a href="#humanrights" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="mutual">
+                    <div class="practice_image">
+                        <img src="img/practice/1.png" alt="Mutual Legal Assistance">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-case"></i>
+                            <h3>Mutual Legal Assistance</h3>
+                            <p>Legal assistance in international legal matters.</p>
+                            <a href="#mutual" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="enforcement">
+                    <div class="practice_image">
+                        <img src="img/practice/2.png" alt="Enforcement of Foreign Judgments">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-courthouse"></i>
+                            <h3>Enforcement of Foreign Judgments</h3>
+                            <p>Legal services for enforcing foreign judgments.</p>
+                            <a href="#enforcement" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="extradition">
+                    <div class="practice_image">
+                        <img src="img/practice/3.png" alt="Extradition Laws">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-judge"></i>
+                            <h3>Extradition Laws</h3>
+                            <p>Legal representation in extradition proceedings.</p>
+                            <a href="#extradition" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="interpol">
+                    <div class="practice_image">
+                        <img src="img/practice/4.png" alt="Interpol Related Laws">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-jury"></i>
+                            <h3>Interpol Related Laws</h3>
+                            <p>Legal assistance in Interpol-related matters.</p>
+                            <a href="#interpol" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="immigration">
+                    <div class="practice_image">
+                        <img src="img/practice/1.png" alt="Immigration and Asylum Laws">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-case"></i>
+                            <h3>Immigration and Asylum Laws</h3>
+                            <p>Legal services for immigration and asylum cases.</p>
+                            <a href="#immigration" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="forex">
+                    <div class="practice_image">
+                        <img src="img/practice/2.png" alt="Foreign Exchange Laws">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-courthouse"></i>
+                            <h3>Foreign Exchange Laws</h3>
+                            <p>Expertise in foreign exchange regulations and compliance.</p>
+                            <a href="#forex" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="media">
+                    <div class="practice_image">
+                        <img src="img/practice/3.png" alt="Media, Privacy, Data Protection, Defamation">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-judge"></i>
+                            <h3>Media, Privacy, Data Protection, Defamation</h3>
+                            <p>Legal services for media law, privacy, and defamation.</p>
+                            <a href="#media" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="sports">
+                    <div class="practice_image">
+                        <img src="img/practice/4.png" alt="Sports Law">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-jury"></i>
+                            <h3>Sports Law</h3>
+                            <p>Legal representation in sports law matters.</p>
+                            <a href="#sports" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="international">
+                    <div class="practice_image">
+                        <img src="img/practice/1.png" alt="International Conventions and Treaty Laws">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-case"></i>
+                            <h3>International Conventions and Treaty Laws</h3>
+                            <p>Expertise in international law and treaty compliance.</p>
+                            <a href="#international" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="investment">
+                    <div class="practice_image">
+                        <img src="img/practice/2.png" alt="Investment Treaties">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-courthouse"></i>
+                            <h3>Investment Treaties</h3>
+                            <p>Legal services related to international investment treaties.</p>
+                            <a href="#investment" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="taxavoidance">
+                    <div class="practice_image">
+                        <img src="img/practice/3.png" alt="Tax Avoidance Treaties">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-judge"></i>
+                            <h3>Tax Avoidance Treaties</h3>
+                            <p>Legal advice on tax avoidance treaties and international tax law.</p>
+                            <a href="#taxavoidance" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="single_practice" id="publicinterest">
+                    <div class="practice_image">
+                        <img src="img/practice/4.png" alt="Public Interest Litigations">
+                    </div>
+                    <div class="practice_hover text-center">
+                        <div class="hover_inner">
+                            <i class="flaticon-jury"></i>
+                            <h3>Public Interest Litigations</h3>
+                            <p>Filing and representation in Public Interest Litigations (PILs).</p>
+                            <a href="#publicinterest" class="lern_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="about_area">
+    <div class="opacity_icon d-none d-lg-block">
+        <i class="flaticon-balance"></i>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-md-6">
+                <div class="single_about_info text-center">
+                    <div class="about_thumb">
+                        <img src="img/about/1.png" alt="About Saurabh Patria and Associates">
+                    </div>
+                    <h3>Finest And Strongest Law Firm in Jaipur</h3>
+                    <p>Saurabh Patria and Associates is dedicated to providing exceptional legal services.
+                        Our experienced team is committed to achieving the best possible outcomes for our clients.
+                    </p>
+                    <div class="signature">
+                        <img src="img/about/signature.png" alt="Signature">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-md-6">
+                <div class="single_about_info text-center">
+                    <div class="about_thumb">
+                        <div class="image_hover">
+                            <div class="hover_inner">
+                                <h2>95%</h2>
+                                <span>Success Rate</span>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Why Choose Saurabh Patria and Associates?</h3>
+                    <p>We pride ourselves on our commitment to excellence, integrity, and client satisfaction.
+                        Our team's expertise and dedication ensure that your legal needs are met with the highest
+                        standards of professionalism.
+                    </p>
+                    <div class="total_cases">
+                        <div class="single_cases">
+                            <h4>1250+</h4>
+                            <p>Total Cases Handled</p>
+                        </div>
+                        <div class="single_cases">
+                            <h4>1180+</h4>
+                            <p>Cases Won</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="testmonial_area testmonial_bg_1 overlay2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="testmonial_active owl-carousel">
+                    <div class="single_testmonial text-center">
+                        <i class="flaticon-straight-quotes"></i>
+                        <p>"Saurabh Patria and Associates provided exceptional legal support. Their expertise and dedication were crucial in resolving my case successfully."</p>
+                        <div class="author_info d-flex justify-content-center align-items-center">
+                            <div class="thumb">
+                                <img src="img/testmonial/smaill_thumb.png" alt="Client 1">
+                            </div>
+                            <span>- Client 1 Name</span>
+                        </div>
+                    </div>
+                    <div class="single_testmonial text-center">
+                        <i class="flaticon-straight-quotes"></i>
+                        <p>"I highly recommend Saurabh Patria and Associates. They handled my case with professionalism and achieved a favorable outcome."</p>
+                        <div class="author_info d-flex justify-content-center align-items-center">
+                            <div class="thumb">
+                                <img src="img/testmonial/smaill_thumb.png" alt="Client 2">
+                            </div>
+                            <span>- Client 2 Name</span>
+                        </div>
+                    </div>
+                    <div class="single_testmonial text-center">
+                        <i class="flaticon-straight-quotes"></i>
+                        <p>"Their team is knowledgeable and responsive. They kept me informed throughout the process and provided excellent legal advice."</p>
+                        <div class="author_info d-flex justify-content-center align-items-center">
+                            <div class="thumb">
+                                <img src="img/testmonial/smaill_thumb.png" alt="Client 3">
+                            </div>
+                            <span>- Client 3 Name</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="appointment_area">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-xl-5 col-md-6 col-lg-6">
+                <div class="appiontment_thumb d-none d-lg-block">
+                    <img src="img/appointment/1.png" alt="Appointment">
+                </div>
+            </div>
+            <div class="col-xl-6 offset-xl-1 col-md-6 col-md-12 col-lg-6">
+                <div class="appointment_info">
+                    <div class="opacity_icon d-none d-lg-block">
+                        <i class="flaticon-balance"></i>
+                    </div>
+                    <h3>Schedule a Consultation</h3>
+                    <p>Contact us to schedule a consultation and discuss your legal needs.</p>
+                    <form action="contact-form-handler.php" method="post">
+                        <div class="row">
+                            <div class="col-xl-6 col-md-6">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-xl-6 col-md-6">
+                                <input type="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="col-xl-6 col-md-6">
+                                <input type="text" name="phone" placeholder="Phoneno." required>
+                            </div>
+                            <div class="col-xl-6 col-md-6">
+                                <input id="datepicker" name="date" placeholder="Appointment date" required>
+                            </div>
+                            <div class="col-xl-12">
+                                <textarea name="message" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="appoinment_button">
+                                    <button class="boxed-btn5 " type="submit">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

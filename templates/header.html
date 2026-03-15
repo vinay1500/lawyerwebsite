@@ -1,0 +1,47 @@
+{% block header %}
+<header>
+    <div class="header-area">
+        <div id="sticky-header" class="main-header-area">
+            <div class="container-fluid p-0">
+                <div class="row align-items-center justify-content-between no-gutters">
+                    <div class="col-xl-2 col-lg-2">
+                        <div class="logo-img">
+                            <a href="{{ url_for('index') }}">
+                                <img src="{{ url_for('static', filename='assets/img/logo.png') }}" alt="Saurabh Patria and Associates Logo"
+                                    style="max-height: 70px;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-8">
+                        <div class="main-menu d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a {% block home_active %}{% endblock home_active %} href="{{ url_for('index') }}">Home</a></li>
+                                    <li><a {% block about_active %}{% endblock about_active %} href="{{ url_for('about') }}">About Us</a></li>
+                                    <li><a {% block practice_active %}{% endblock practice_active %} href="{{ url_for('practice') }}">Practice Areas</a></li>
+                                    <li><a {% block blog_active %}{% endblock blog_active %} href="{{ url_for('blog') }}">Blog</a></li>
+                                    <li><a {% block join_active %}{% endblock join_active %} href="{{ url_for('join') }}">Join Us</a></li>
+                                    <li><a {% block contact_active %}{% endblock contact_active %} href="{{ url_for('contact') }}">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-2 d-none d-lg-block">
+                        <div class="social_media_links">
+                            <ul>
+                                <li><a href="https://www.facebook.com/yourfirmspage" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/yourfirmsaccount" target="_blank"> <i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/yourfirmsinsta" target="_blank"> <i class="fa fa-instagram"></i> </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+{% endblock header %}
+

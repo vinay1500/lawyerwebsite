@@ -1,0 +1,347 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Blog - Saurabh Patria and Associates
+{% endblock title %}
+
+{% block description %}
+    Read our latest blog posts for legal insights and updates from Saurabh Patria and Associates, leading lawyers in Jaipur, Rajasthan High Court.
+{% endblock description %}
+
+{% block blog_active %}
+    class="active"
+{% endblock blog_active %}
+
+{% block content %}
+
+    <div class="bradcam_area">
+        <div class="bradcam_inner bradcam_bg_2 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="bradcam_text text-center">
+                            <h3>Blog </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="blog_area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mb-5 mb-lg-0">
+                    <div class="blog_left_sidebar">
+                        <article class="blog_item">
+                            <div class="blog_item_img">
+                                <img class="card-img rounded-0" src="{{ url_for('static', filename='assets/img/blog/single_blog_1.png') }}" alt="Legal Blog Post 1">
+                                <a href="#" class="blog_item_date">
+                                    <h3>15</h3>
+                                    <p>Jan</p>
+                                </a>
+                            </div>
+
+                            <div class="blog_details">
+                                <a class="d-inline-block" href="single-blog.html">
+                                    <h2>Understanding Recent Changes in Business Law</h2>
+                                </a>
+                                <p>Stay informed about the latest amendments and how they impact your business.</p>
+                                <ul class="blog-info-link">
+                                    <li><a href="#"><i class="fa fa-user"></i> Legal Insights</a></li>
+                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="blog_item">
+                            <div class="blog_item_img">
+                                <img class="card-img rounded-0" src="{{ url_for('static', filename='assets/img/blog/single_blog_2.png') }}" alt="Legal Blog Post 2">
+                                <a href="#" class="blog_item_date">
+                                    <h3>15</h3>
+                                    <p>Jan</p>
+                                </a>
+                            </div>
+
+                            <div class="blog_details">
+                                <a class="d-inline-block" href="single-blog.html">
+                                    <h2>Navigating Family Law: A Guide for Clients</h2>
+                                </a>
+                                <p>Essential tips and advice for those dealing with family law matters.</p>
+                                <ul class="blog-info-link">
+                                    <li><a href="#"><i class="fa fa-user"></i> Legal Guidance</a></li>
+                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="blog_item">
+                            <div class="blog_item_img">
+                                <img class="card-img rounded-0" src="{{ url_for('static', filename='assets/img/blog/single_blog_3.png') }}" alt="Legal Blog Post 3">
+                                <a href="#" class="blog_item_date">
+                                    <h3>15</h3>
+                                    <p>Jan</p>
+                                </a>
+                            </div>
+
+                            <div class="blog_details">
+                                <a class="d-inline-block" href="single-blog.html">
+                                    <h2>The Importance of Legal Representation in Criminal Cases</h2>
+                                </a>
+                                <p>Why having a skilled attorney is crucial for your defense.</p>
+                                <ul class="blog-info-link">
+                                    <li><a href="#"><i class="fa fa-user"></i> Criminal Law</a></li>
+                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="blog_item">
+                            <div class="blog_item_img">
+                                <img class="card-img rounded-0" src="{{ url_for('static', filename='assets/img/blog/single_blog_4.png') }}" alt="Legal Blog Post 4">
+                                <a href="#" class="blog_item_date">
+                                    <h3>15</h3>
+                                    <p>Jan</p>
+                                </a>
+                            </div>
+
+                            <div class="blog_details">
+                                <a class="d-inline-block" href="single-blog.html">
+                                    <h2>Understanding Property Laws in Rajasthan</h2>
+                                </a>
+                                <p>Key aspects of property laws that every individual should know.</p>
+                                <ul class="blog-info-link">
+                                    <li><a href="#"><i class="fa fa-user"></i> Property Law</a></li>
+                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="blog_item">
+                            <div class="blog_item_img">
+                                <img class="card-img rounded-0" src="{{ url_for('static', filename='assets/img/blog/single_blog_5.png') }}" alt="Legal Blog Post 5">
+                                <a href="#" class="blog_item_date">
+                                    <h3>15</h3>
+                                    <p>Jan</p>
+                                </a>
+                            </div>
+
+                            <div class="blog_details">
+                                <a class="d-inline-block" href="single-blog.html">
+                                    <h2>The Role of Mediation in Resolving Disputes</h2>
+                                </a>
+                                <p>How mediation can be a beneficial alternative to traditional litigation.</p>
+                                <ul class="blog-info-link">
+                                    <li><a href="#"><i class="fa fa-user"></i> Dispute Resolution</a></li>
+                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <nav class="blog-pagination justify-content-center d-flex">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a href="#" class="page-link" aria-label="Previous">
+                                        <i class="ti-angle-left"></i>
+                                    </a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="#" class="page-link">1</a>
+                                </li>
+                                <li class="page-item active">
+                                    <a href="#" class="page-link">2</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="#" class="page-link" aria-label="Next">
+                                        <i class="ti-angle-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog_right_sidebar">
+                        <aside class="single_sidebar_widget search_widget">
+                            <form action="#">
+                                <div class="form-group">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder='Search Keyword'
+                                            onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = 'Search Keyword'">
+                                        <div class="input-group-append">
+                                            <button class="btn" type="button"><i class="ti-search"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
+                                    type="submit">Search</button>
+                            </form>
+                        </aside>
+
+                        <aside class="single_sidebar_widget post_category_widget">
+                            <h4 class="widget_title">Categories</h4>
+                            <ul class="list cat-list">
+                                <li>
+                                    <a href="#" class="d-flex">
+                                        <p>Business Law</p>
+                                        <p>(37)</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex">
+                                        <p>Family Law</p>
+                                        <p>(10)</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex">
+                                        <p>Criminal Law</p>
+                                        <p>(03)</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex">
+                                        <p>Property Law</p>
+                                        <p>(11)</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex">
+                                        <p>Dispute Resolution</p>
+                                        <p>21</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex">
+                                        <p>Legal Insights</p>
+                                        <p>09</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </aside>
+
+                        <aside class="single_sidebar_widget popular_post_widget">
+                            <h3 class="widget_title">Recent Posts</h3>
+                            <div class="media post_item">
+                                <img src="{{ url_for('static', filename='assets/img/post/post_1.png') }}" alt="post">
+                                <div class="media-body">
+                                    <a href="single-blog.html">
+                                        <h3>Understanding Recent Changes in Business Law</h3>
+                                    </a>
+                                    <p>January 12, 2024</p>
+                                </div>
+                            </div>
+                            <div class="media post_item">
+                                <img src="{{ url_for('static', filename='assets/img/post/post_2.png') }}" alt="post">
+                                <div class="media-body">
+                                    <a href="single-blog.html">
+                                        <h3>Navigating Family Law: A Guide for Clients</h3>
+                                    </a>
+                                    <p>January 10, 2024</p>
+                                </div>
+                            </div>
+                            <div class="media post_item">
+                                <img src="{{ url_for('static', filename='assets/img/post/post_3.png') }}" alt="post">
+                                <div class="media-body">
+                                    <a href="single-blog.html">
+                                        <h3>The Importance of Legal Representation in Criminal Cases</h3>
+                                    </a>
+                                    <p>January 08, 2024</p>
+                                </div>
+                            </div>
+                            <div class="media post_item">
+                                <img src="{{ url_for('static', filename='assets/img/post/post_4.png') }}" alt="post">
+                                <div class="media-body">
+                                    <a href="single-blog.html">
+                                        <h3>Understanding Property Laws in Rajasthan</h3>
+                                    </a>
+                                    <p>January 05, 2024</p>
+                                </div>
+                            </div>
+                        </aside>
+                        <aside class="single_sidebar_widget tag_cloud_widget">
+                            <h4 class="widget_title">Tag Clouds</h4>
+                            <ul class="list">
+                                <li>
+                                    <a href="#">Legal Advice</a>
+                                </li>
+                                <li>
+                                    <a href="#">Court Cases</a>
+                                </li>
+                                <li>
+                                    <a href="#">Law Updates</a>
+                                </li>
+                                <li>
+                                    <a href="#">Jaipur Lawyers</a>
+                                </li>
+                                <li>
+                                    <a href="#">High Court</a>
+                                </li>
+                                <li>
+                                    <a href="#">Legal Services</a>
+                                </li>
+                                <li>
+                                    <a href="#">Client Support</a>
+                                </li>
+                                <li>
+                                    <a href="#">Legislation</a>
+                                </li>
+                            </ul>
+                        </aside>
+
+
+                        <aside class="single_sidebar_widget instagram_feeds">
+                            <h4 class="widget_title">Instagram Feeds</h4>
+                            <ul class="instagram_row flex-wrap">
+                                <li>
+                                    <a href="#">
+                                        <img class="img-fluid" src="{{ url_for('static', filename='assets/img/post/post_5.png') }}" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img class="img-fluid" src="{{ url_for('static', filename='assets/img/post/post_6.png') }}" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img class="img-fluid" src="{{ url_for('static', filename='assets/img/post/post_7.png') }}" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img class="img-fluid" src="{{ url_for('static', filename='assets/img/post/post_8.png') }}" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img class="img-fluid" src="{{ url_for('static', filename='assets/img/post/post_9.png') }}" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img class="img-fluid" src="{{ url_for('static', filename='assets/img/post/post_10.png') }}" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </aside>
+
+
+                        <aside class="single_sidebar_widget newsletter_widget">
+                            <h4 class="widget_title">Newsletter</h4>
+
+                            <form action="#">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" onfocus="this.placeholder = ''"
+                                        onblur="this.placeholder = 'Enter email'" placeholder='Enter email' required>
+                                </div>
+                                <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
+                                    type="submit">Subscribe</button>
+                            </form>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock content %}

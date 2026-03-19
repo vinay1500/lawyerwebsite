@@ -5423,3 +5423,77 @@ h6 {
 .core-team .col-md-4 .lawyer-details {
   flex-grow: 1; /* Allow details to take remaining space */
 }
+
+
+/* this is for the founder description page */
+.team-members {
+    padding: 80px 0;
+    background: #f9fafc;
+}
+
+.team-card {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 80px;
+}
+
+.team-card.reverse {
+    flex-direction: row-reverse;
+}
+
+.team-image img {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 16px;
+    transition: transform 0.4s ease;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.team-image img:hover {
+    transform: scale(1.03);
+}
+
+.team-content {
+    max-width: 550px;
+}
+
+.team-content h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    color: #2563eb;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.meta {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #555;
+}
+
+.team-content p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 12px;
+}
+.team-card {
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeUp 0.8s ease forwards;
+}
+
+.team-card:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

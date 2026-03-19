@@ -137,13 +137,15 @@ def practice_details(area_name):
 
 @app.route('/blog')
 def blog():
-    posts = BlogPost.query.all()
-    return render_template('blog.html', posts=posts)
+    # posts = BlogPost.query.all()
+    # return render_template('blog.html', posts=posts)
+    return render_template('blog.html') # Ensure 'blog.html' is the correct template name.
 
 @app.route('/blog/<int:post_id>')
 def blog_post(post_id):
-    post = BlogPost.query.get_or_404(post_id)
-    return render_template('blog-details.html', post=post)
+    # post = BlogPost.query.get_or_404(post_id)
+    # return render_template('blog-details.html', post=post)
+    return render_template('blog-details.html', post_id=post_id) # Ensure 'blog-details.html' is the correct template name.
 
 @app.route('/join')
 def join():
